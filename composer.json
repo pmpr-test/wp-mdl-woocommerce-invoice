@@ -1,0 +1,32 @@
+{
+  "name": "pmpr-mdl/wp-mdl-woocommerce",
+  "type": "project",
+  "license": "proprietary",
+  "description": "Woocommerce Package for Wordpress",
+  "keywords": [
+    "woocommerce",
+    "wordpress",
+    "package"
+  ],
+  "require": {
+    "php": ">=8.2",
+    "pmpr-cmn/wp-cmn-foundation": "~1.4",
+    "pmpr-utl/wp-utl-document": "~1"
+  },
+  "prod-require": {
+    "php": "8.2",
+    "wordpress": "6.0",
+    "wp-cmn-foundation": "latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pmpr\\Module\\WoocommerceInvoice\\": "src/Pmpr/Module/WoocommerceInvoice"
+    },
+    "files": [
+      "index.php"
+    ]
+  },
+  "minimum-stability": "dev",
+  "tag": "1.0.0",
+  "timestamp": "1728904586"
+}
