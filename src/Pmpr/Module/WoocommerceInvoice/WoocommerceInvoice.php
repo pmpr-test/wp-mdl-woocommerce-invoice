@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6844521021369             |
+    |             684453fb608ed             |
     |_______________________________________|
 */
  namespace Pmpr\Module\WoocommerceInvoice; use Pmpr\Common\Foundation\Container\ModuleInitiator; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Module\WoocommerceInvoice\Email\Email; class WoocommerceInvoice extends ModuleInitiator { const ccwyisoeggcoicio = 'pr_woocommerce_invoice_'; public function register() { $this->gkieogwukagigisy(__DIR__, [Constants::qescuiwgsyuikume => static function () { return __('Woocommerce Invoice', PR__MDL__WOOCOMMERCE_INVOICE); }, Constants::wuowaiyouwecckaw => false, Constants::sguyaymiiiiewame => Setting::class]); } public function wigskegsqequoeks() { } public function mameiwsayuyquoeq() { Order::symcgieuakksimmu(); Integration::ksyueceqagwomguk(); if ($this->uwkmaywceaaaigwo()->owicscwgeuqcqaig()->goecwaaykqoaaagg()) { Backend::ksyueceqagwomguk(); } if (Setting::ygskawocmcykeoea !== $this->weysguygiseoukqw(Setting::cacuakuykqiumuic)) { Email::ksyueceqagwomguk(); } } public function enqueue() { return; $seumokooiykcomco = $this->caokeucsksukesyo()->ayueggmoqeeukqmq(); if ($seumokooiykcomco->uqwgsuysegkweago(Constants::aucuyeiykiqomaew) || $seumokooiykcomco->cagmcswsqkwuasiy(Constants::aucuyeiykiqomaew) || $this->kmuweyayaqoeqiyw()->qcsgmgoukiouuscw()) { $meakksicouekcgoe = $this->caokeucsksukesyo()->usugyumcgeaaowsi(); $meakksicouekcgoe->wwmusmkkcwsiciou($this, Constants::wyucqaeuuqkesque, Ajax::myikkigscysoykgy); $meakksicouekcgoe->qeqgammgesiwiysc($meakksicouekcgoe->owygwqwawqoiusis($this, 'invoice', 'invoice.js')->ayuciigykaswwqeo('jquery')); } } }
